@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-xl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blue;
+    border: 2px solid black;
+    padding: 10px;
+    /* Additional styles to control width and height if desired */
+    width: 50%; /* Adjust this value as needed */
+    height: 50vh; /* Adjust this value as needed */
+    margin: auto; /* Center the container horizontally */
+}
